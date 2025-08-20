@@ -1,0 +1,35 @@
+/* Custom styles beyond Tailwind */
+
+/* Custom animations */
+@tailwind utilities;
+
+@tailwind components;
+
+@tailwind components;
+
+@layer components {
+  @keyframes fadeIn {
+    from { opacity: 0; }
+    to { opacity: 1; }
+  }
+
+  /* Custom utility classes */
+  .animate-fade-in {
+    animation: fadeIn 0.5s ease-in-out;
+  }
+}
+
+/* Custom components */
+@layer components {
+  .community-card {
+    @apply bg-white rounded-lg shadow-md p-6 transition-all duration-300 hover:shadow-lg border border-gray-100;
+  }
+
+  .btn-primary {
+    @apply bg-primary-500 hover:bg-primary-600 text-white font-medium py-2 px-4 rounded-md transition-colors duration-300;
+  }
+
+  .btn-secondary {
+    @apply bg-white hover:bg-gray-50 text-gray-800 font-medium py-2 px-4 rounded-md border border-gray-300 transition-colors duration-300;
+  }
+}
