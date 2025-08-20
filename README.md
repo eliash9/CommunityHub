@@ -1,0 +1,1 @@
+aplikasi web bernama CommunityHub dengan fitur utama untuk mengelola jadwal dan kegiatan komunitas di seluruh dunia (misalnya RW/RT di Indonesia, HOA di Amerika, asosiasi warga di Eropa, klub kampus, hingga komunitas gereja).
